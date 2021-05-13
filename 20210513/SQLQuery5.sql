@@ -1,0 +1,13 @@
+--DELETE
+BEGIN TRAN;
+
+DELETE FROM testTbl
+  WHERE ID = 4;
+
+DELETE FROM testTbl
+  WHERE userName ='ȫ�浿';
+
+SELECT * FROM testTbl;
+
+COMMIT;
+ROLLBACK;
