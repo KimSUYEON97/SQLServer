@@ -14,9 +14,10 @@ AS
 --SELECT * FROM CTE_SUMMARY;
 --SELECT GRP,SUMM,DIV FROM CTE_SUMMARY;
 SELECT
-      CASE DIV
+      IIF(DIV =0,GRP,'총합계') AS [상품그룹2]
+      ,CASE DIV
 	  WHEN 0 THEN GRP
-	  WHEN 1 THEN '총합계' END AS [상품그룹]
+	  WHEN 1 THEN '총합계' END AS [상품그룹] -- CASE ~ [상품그룹] == IIF(DIV =0,GRP,'총합계') AS[상품그룹2]
 	  ,SUMM AS [그룹별구매금액]
 	  ,DIV
 	FROM CTE_SUMMARY;

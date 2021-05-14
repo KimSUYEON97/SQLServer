@@ -1,0 +1,40 @@
+--문자열함수
+SELECT ASCII('+'), CHAR(47); --사용빈도 LOW
+SELECT UNICODE('가'),NCHAR(44035); --일본어,중국어 가능 
+
+--문자열 연결
+SELECT CONCAT('SQL ', 'SERVER ',2019) AS [NAME]; --사용빈도 HIGH
+
+SELECT 'SQL ' + 'SERVER ' + CAST(2019 AS varchar);
+
+--단어시작위치 1부터!
+SELECT CHARINDEX('W','HELLO WORLD!');
+
+
+SELECT LEFT('SQL SERVER 2019',3);--왼쪽부터 3자리
+SELECT RIGHT('SQL SERVER 2019',4);
+
+DECLARE @STR VARCHAR(20);
+SET @STR = 'SQL SERVER 2019';
+SELECT LEFT(@STR,3),RIGHT(@STR,4);
+
+SELECT SUBSTRING('대한민국만세',5,2);--문자열 자르기 5부터 2자리
+SELECT LEN('HELLO WORLD!');
+SELECT LOWER('hELLO wOrLD!');
+SELECT UPPER('hELLO wOrLD!');
+
+SELECT '   SQL',LTRIM('   SQL');--왼쪽 공백 삭제 MIDDLE
+SELECT '   SQL    ',RTRIM('   SQL    ');--MIDDLE
+SELECT '   SQL    ',TRIM('   SQL    ');--HIGH
+
+--SUPERHIGH 빈도
+SELECT REPLACE('SQL SERVER 2019, SERVER 만쉐', 'SERVER','서버');
+
+--HIGH빈도
+SELECT STR(3.1415);
+SELECT STR(45);
+
+--HIGH빈도
+SELECT GETDATE();
+SELECT FORMAT(GETDATE(), 'yyyy-MM-dd hh:mm:ss'); -- 한국식
+SELECT FORMAT(GETDATE(), 'MM/dd/yyyy hh:mm:ss'); -- 미국식
