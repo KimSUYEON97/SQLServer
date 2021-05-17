@@ -1,0 +1,10 @@
+INSERT INTO production.parts (part_id,part_name) VALUES (1,'Karly'),(2,'Larissa'),(3,'Ginger'),(4,'Felicia'),(5,'Paula'),(6,'Emma'),(7,'Octavia'),(8,'Hilda'),(9,'Neve'),(10,'Daryl');
+INSERT INTO production.parts (part_id,part_name) VALUES (11,'Clare'),(12,'Jacqueline'),(13,'Hadassah'),(14,'Kim'),(15,'Mara'),(16,'Lareina'),(17,'Sonya'),(18,'Angela'),(19,'Maryam'),(20,'Blair');
+INSERT INTO production.parts (part_id,part_name) VALUES (21,'Quyn'),(22,'Jordan'),(23,'Hadassah'),(24,'Julie'),(25,'Sonia'),(26,'Marah'),(27,'Mary'),(28,'Ainsley'),(29,'Kathleen'),(30,'Quon');
+INSERT INTO production.parts (part_id,part_name) VALUES (31,'Kameko'),(32,'Mariko'),(33,'Nerea'),(34,'Rebecca'),(35,'Hiroko'),(36,'Summer'),(37,'Tashya'),(38,'Cecilia'),(39,'Eliana'),(40,'Remedios');
+INSERT INTO production.parts (part_id,part_name) VALUES (41,'Willow'),(42,'Nyssa'),(43,'Clementine'),(44,'Joelle'),(45,'Marah'),(46,'Evelyn'),(47,'Sophia'),(48,'Rinah'),(49,'Patience'),(50,'Ignacia');
+INSERT INTO production.parts (part_id,part_name) VALUES (51,'Breanna'),(52,'Sierra'),(53,'Lisandra'),(54,'Jessamine'),(55,'Daphne'),(56,'Taylor'),(57,'Vivian'),(58,'Ariel'),(59,'Gisela'),(60,'Ignacia');
+INSERT INTO production.parts (part_id,part_name) VALUES (61,'Rhona'),(62,'Doris'),(63,'Glenna'),(64,'Melodie'),(65,'Halee'),(66,'Amity'),(67,'Hope'),(68,'Nora'),(69,'Myra'),(70,'Dakota');
+INSERT INTO production.parts (part_id,part_name) VALUES (71,'Jescie'),(72,'Dara'),(73,'Gwendolyn'),(74,'Xyla'),(75,'Carly'),(76,'Tara'),(77,'Leandra'),(78,'Callie'),(79,'Guinevere'),(80,'Naomi');
+INSERT INTO production.parts (part_id,part_name) VALUES (81,'Serena'),(82,'Mira'),(83,'Regan'),(84,'Chastity'),(85,'Kylan'),(86,'Kyra'),(87,'Shannon'),(88,'Keiko'),(89,'Aline'),(90,'Sasha');
+INSERT INTO production.parts (part_id,part_name) VALUES (91,'Echo'),(92,'Maite'),(93,'Kylee'),(94,'Ariel'),(95,'Sylvia'),(96,'Winter'),(97,'Sybill'),(98,'Inez'),(99,'Tasha'),(100,'Ivy');

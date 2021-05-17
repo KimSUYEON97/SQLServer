@@ -45,3 +45,6 @@ ALTER TABLE userTbl
 	ADD CONSTRAINT CK_birthYear
 	CHECK (birthYear >= 1900 AND birthYear <= YEAR(GETdATE()))
 	--2021±îÁö
+
+SELECT * FROM sampleDB.dbo.userTbl;
+SELECT * FROM sqlDB.dbo.buyTbl;

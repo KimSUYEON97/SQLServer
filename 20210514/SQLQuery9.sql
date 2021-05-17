@@ -27,3 +27,4 @@ SELECT name, CONCAT(mobile1,mobile2) as mobile FROM userTbl
 INTERSECT
 SELECT name, CONCAT(mobile1,mobile2) as mobile FROM userTbl
 WHERE mobile1 is not null;
+

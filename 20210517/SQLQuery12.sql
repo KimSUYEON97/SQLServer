@@ -1,0 +1,1 @@
+SELECT * FROM testTbl2 --SQLQuery11에서 실행중이라서 deadlock걸려, 11에서 실행 종료까지 수행 안됨
