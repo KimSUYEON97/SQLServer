@@ -1,0 +1,28 @@
+--TABLE 생성
+USE sampleDB;
+GO
+
+--DDL table생성
+CREATE TABLE ddlTbl
+(
+	ID INT NOT NULL PRIMARY KEY,
+	name NVARCHAR(20) NOT NULL,
+	regiDate DATETIME
+);
+GO
+
+--DDL table 수정
+-- IDENTITY는 ALTER로 불가능 , CREATE에 선언!
+ALTER TABLE ddlTbl ADD newColumn VARCHAR(10) NOT NULL
+
+DROP TABLE ddlTbl
+
+--DDL table생성
+CREATE TABLE ddlTbl
+(
+	ID int NOT NULL PRIMARY KEY IDENTITY(1,1),
+	name NVARCHAR(20) NOT NULL,
+	regiDate DATETIME
+);
+GO
+
